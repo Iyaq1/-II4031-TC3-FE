@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.map {
+  flex: 1;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomButtonContainer {
+  padding: 20px;
+}
